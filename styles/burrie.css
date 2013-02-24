@@ -1,0 +1,65 @@
+html {
+	background: #CCC;
+}
+#container {
+	width: 955px;
+	background: #FFF;
+	margin: 0 auto;
+	/* [disabled]padding-left: 10px; */
+	/* [disabled]padding-right: 10px; */
+	overflow: hidden;
+}body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: transparent;
+}
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	color: #000;
+}
+img {
+border: 0px;
+}
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	color: #000;
+}
+#footer {
+	background-color: #188FCC;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	float: left;
+	width: 955px;
+}
+#menu {
+	background-color: #188FCC;
+	float: left;
+	width: 955px;
+}
+#wrapper {
+	background-color: transparent;
+	
+	margin: auto;
+	width: 873px;
+}
+#content {
+	padding: 10px;
+	float: left;
+	background-color: white;
+}
+#images {
+	background-color: #CCC;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	float: left;
+	width: 100%;
+}
+#images  img{
+	padding-left: 10px;
+}
