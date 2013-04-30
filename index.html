@@ -78,8 +78,13 @@
     <p><a href="http://www.bbb.org/wisconsin/business-reviews/sandblasting/burrie-enterprises-llc-in-waukesha-wi-4020820"><img src="images/bbb.png" width="227" height="62" alt="Better Business Bureau A+ Rating" /></a></p>
   </div>
 </div>
-<script type="text/javascript">
 
+<script type="text/javascript">
+// Menu JS 
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"images/SpryMenuBarDownHover.gif", imgRight:"images/SpryMenuBarRightHover.gif"});
+</script>
+<script type="text/javascript">
+//Google Analytics JS
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36352437-1']);
   _gaq.push(['_trackPageview']);
@@ -89,12 +94,18 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
 <script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"images/SpryMenuBarDownHover.gif", imgRight:"images/SpryMenuBarRightHover.gif"});
+//Webtraxs JS
+document.write(unescape("%3Cscript src='" + document.location.protocol + "//www.webtraxs.com/trxscript.php' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
+_trxid = "burrie";
+webTraxs();
+</script>
+<noscript><img src="http://www.webtraxs.com/webtraxs.php?id=burrie&st=img" alt=""></noscript>
+<script type="text/javascript">
+//Slider JS
 $(window).load(function() {
     $('#slider').nivoSlider({
         effect: 'random', // Specify sets like: 'fold,fade,sliceDown'  or sliceDown sliceDownLeft sliceUp sliceUpLeft sliceUpDown sliceUpDownLeftfold fade random slideInRight slideInLeft boxRandom boxRain boxRainReverse boxRainGrow boxRainGrowReverse
@@ -121,6 +132,7 @@ $(window).load(function() {
     });
 });
 // EndOAWidget_Instance_2559022
-  </script>
+</script>
+
 </body>
 </html>
