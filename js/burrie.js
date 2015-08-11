@@ -15,3 +15,24 @@ function toggleNavDrawer() {
 }
 var navToggle = document.getElementsByClassName('button--nav-toggle')[0];
 navToggle.addEventListener('click',function() {toggleNavDrawer();});
+
+function updatePhoneLinks() {
+  var phones = document.getElementsByClassName('tel-link');
+  if (window.innerWidth < 1000) {
+    for (var i = 0; i < phones.length; i++) {
+      if (phones[i].classList.contains('phone--alternate')) {
+        phones[i].href = 'tel:' + phones[i].innerHTML;
+      } else {
+        phones[i].href = 'tel:+1-262-544-6032';
+      }
+    }
+  } else {
+    for (var i = 0; i < phones.length; i++) {
+      phones[i].href = '/contact';
+    }
+  }
+}
+updatePhoneLinks();
+window.addEventListener('resize', function() {
+  updatePhoneLinks();
+});
