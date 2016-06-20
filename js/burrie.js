@@ -29,7 +29,7 @@ var updateTelLinks = function() {
 		}
 	} else {
 		for (var i = 0; i < phones.length; i++) {
-			phones[i].href = '/contact.html';
+			phones[i].href = './contact.html';
 		}
 	}
 }

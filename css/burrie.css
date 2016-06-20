@@ -315,23 +315,23 @@ header {
 }
 
 .banner--home {
-	background-image: url(/images/banners/BurrieBuildingSpring-640.jpg);
+	background-image: url(../images/banners/BurrieBuildingSpring-640.jpg);
 }
 
 .banner--industrial {
-	background-image: url(/images/banners/BlastPaintManitowocCrane-640.jpg);
+	background-image: url(../images/banners/BlastPaintManitowocCrane-640.jpg);
 }
 
 .banner--commercial {
-	background-image: url(/images/banners/BlastingCommercialCastings-640.jpg);
+	background-image: url(../images/banners/BlastingCommercialCastings-640.jpg);
 }
 
 .banner--homeHoby {
-	background-image: url(/images/banners/FarmallTractorRestored-640.jpg);
+	background-image: url(../images/banners/FarmallTractorRestored-640.jpg);
 }
 
 .banner--painting {
-	background-image: url(/images/banners/OrangeTrailerBlastedPainted-640.jpg);
+	background-image: url(../images/banners/OrangeTrailerBlastedPainted-640.jpg);
 }
 
 .banner--contact iframe {
@@ -342,23 +342,23 @@ header {
 
 @media (min-width: 640px) {
 	.banner--home {
-		background-image:url(/images/banners/BurrieBuildingSpring-1280.jpg);
+		background-image:url(../images/banners/BurrieBuildingSpring-1280.jpg);
 	}
 
 	.banner--industrial {
-		background-image: url(/images/banners/BlastPaintManitowocCrane-1280.jpg);
+		background-image: url(../images/banners/BlastPaintManitowocCrane-1280.jpg);
 	}
 
 	.banner--commercial {
-		background-image: url(/images/banners/BlastingCommercialCastings-1280.jpg);
+		background-image: url(../images/banners/BlastingCommercialCastings-1280.jpg);
 	}
 
 	.banner--homeHoby {
-		background-image: url(/images/banners/FarmallTractorRestored-1280.jpg);
+		background-image: url(../images/banners/FarmallTractorRestored-1280.jpg);
 	}
 
 	.banner--painting {
-		background-image: url(/images/banners/OrangeTrailerBlastedPainted-1280.jpg);
+		background-image: url(../images/banners/OrangeTrailerBlastedPainted-1280.jpg);
 	}
 }
 
@@ -369,30 +369,30 @@ header {
 
 	.banner--home {
 		padding-bottom: 35.29%;
-		background-image: url(/images/banners/BurrieBuildingSpring-1700.jpg);
+		background-image: url(../images/banners/BurrieBuildingSpring-1700.jpg);
 	}
 
 	.banner--industrial {
-		background-image: url(/images/banners/BlastPaintManitowocCrane-1920.jpg);
+		background-image: url(../images/banners/BlastPaintManitowocCrane-1920.jpg);
 	}
 
 	.banner--commercial {
-		background-image: url(/images/banners/BlastingCommercialCastings-1920.jpg);
+		background-image: url(../images/banners/BlastingCommercialCastings-1920.jpg);
 	}
 
 	.banner--homeHoby {
-		background-image: url(/images/banners/FarmallTractorRestored-1920.jpg);
+		background-image: url(../images/banners/FarmallTractorRestored-1920.jpg);
 	}
 
 	.banner--painting {
-		background-image: url(/images/banners/OrangeTrailerBlastedPainted-1920.jpg);
+		background-image: url(../images/banners/OrangeTrailerBlastedPainted-1920.jpg);
 	}
 }
 
 @media (min-width: 1700px) {
 	.banner--home {
 		padding-bottom:31.25%;
-		background-image: url(/images/banners/BurrieBuildingSpring-1920.jpg);
+		background-image: url(../images/banners/BurrieBuildingSpring-1920.jpg);
 	}
 }
 
